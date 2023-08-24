@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/gigagames.jpg'
 import IMG2 from '../../assets/doguinhofeliz.jpg'
 import IMG3 from '../../assets/todolist.png'
+import IMG4 from '../../assets/CakeBoss.png'
 import {FaGithub} from 'react-icons/fa'
 
 
@@ -55,6 +56,18 @@ const Portfolio = () => {
                         {/* <a href='' className='btn' target="_blank"><FaGithub/></a>
                         <a href='' className='btn btn-primary' target="_blank">Live Demo</a> */}
                         <a href='' className='btn btn-primary disabled' target="_blank">Em construção</a>
+                    </div>
+                </article>
+
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
+                        <img src={IMG4} height="370px" alt="CakeBoss" />
+                    </div>
+                    <h4>CakeBoss</h4>
+                    <p className='small_text'>Website para uma confeitaria com sistema de agendamentos de entrega/retirada e carrinho de compras feito com Bootstrap e PHP + MySQL.</p>
+                    <div className="portfolio__item-cta">
+                        <a href='https://drive.google.com/drive/folders/1HNmXQSvGdeqbX6pgHFB1ZTTryHjqAI1V?usp=sharing' className='btn' target="_blank"><FaGithub/></a>
+                        <a href='https://drive.google.com/drive/folders/1HNmXQSvGdeqbX6pgHFB1ZTTryHjqAI1V?usp=sharing' className='btn btn-primary' target="_blank">Live Demo</a>
                     </div>
                 </article>
             </div>
