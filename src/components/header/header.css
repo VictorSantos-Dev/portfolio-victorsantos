@@ -57,15 +57,5 @@ header{
         height: 100vh;
     }
 
-    .header__social{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap:0.8rem;
-        position: absolute;
-        left:0;
-        bottom:3rem;
-        justify-content: center;
-        width: 100%;
-    }
+
 }
