@@ -36,17 +36,14 @@ header{
 
 /*----------------------------------------------*/
 .me{
-margin-left:350px;
-overflow: hidden;
-  
+    display: flex;
+    justify-content: center;
 }
 
 .eu{
-    width: 280px;
-    border-radius: 12rem 12rem 0 0;
+    width: 300px;
+    border-radius: 8rem 8rem 0 0;
     margin-top: 4rem;
-    left:calc(50%-11rem);
-        
 }
 
 .scroll__down{
