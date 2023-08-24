@@ -27,7 +27,7 @@
 .about__cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    padding: 2rem;
 }
 
 .about__card{
@@ -36,8 +36,8 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    margin-right:10px ;
     transition: all 400ms ease ;
+    height: 100%;
 }
 .about__card:hover{
     background: transparent;
