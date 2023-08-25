@@ -80,7 +80,7 @@ const Portfolio = () => {
                     <p className='small_text'>Lista de compras de produtos feito com Bubble (Version Test).
                     </p>
                     <div className="portfolio__item-cta">
-                        <a href='https://bubble.io' className='btn' target="_blank"><FaGithub/></a>
+                        <a href='https://bubble.io/page?type=page&name=listamercado_login&id=firstproject-70149&tab=tabs-1' className='btn' target="_blank"><FaGithub/></a>
                         <a href='https://firstproject-70149.bubbleapps.io/version-test/listamercado_login' className='btn btn-primary' target="_blank">Live Demo</a>
                     </div>
                 </article>
