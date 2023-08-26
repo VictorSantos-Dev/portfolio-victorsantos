@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/gigagames.jpg'
 import IMG2 from '../../assets/doguinhofeliz.jpg'
 import IMG3 from '../../assets/CakeBoss.png'
-import IMG4 from '../../assets/todolist.png'
+import IMG4 from '../../assets/todolist.jpg'
 import IMG5 from '../../assets/ToDoList_Bubble.jpg'
 import {FaGithub} from 'react-icons/fa'
 
@@ -63,12 +63,12 @@ const Portfolio = () => {
                         <img src={IMG4} height="370px" alt="" />
                     </div>
                     <h4>ToDo List</h4>
-                    <p className='small_text'>Lista de tarefas para anotações feita com ReactJs.
+                    <p className='small_text'>Lista de tarefas para anotações feita com ReactJs + Vite.
                     </p>
                     <div className="portfolio__item-cta">
-                        {/* <a href='' className='btn' target="_blank"><FaGithub/></a>
-                        <a href='' className='btn btn-primary' target="_blank">Live Demo</a> */}
-                        <a href='' className='btn btn-primary disabled' target="_blank">Em construção</a>
+                        <a href='https://github.com/VictorSantos-Dev/todo_react' className='btn' target="_blank"><FaGithub/></a>
+                        <a href='https://todo-react-teal-two.vercel.app' className='btn btn-primary' target="_blank">Live Demo</a>
+                        {/* <a href='' className='btn btn-primary disabled' target="_blank">Em construção</a> */}
                     </div>
                 </article>
 
