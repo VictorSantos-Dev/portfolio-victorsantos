@@ -5,6 +5,7 @@ import IMG2 from '../../assets/doguinhofeliz.jpg'
 import IMG3 from '../../assets/CakeBoss.png'
 import IMG4 from '../../assets/todolist.jpg'
 import IMG5 from '../../assets/ToDoList_Bubble.jpg'
+import IMG6 from '../../assets/victorsbank.jpg'
 import {FaGithub} from 'react-icons/fa'
 
 
@@ -19,9 +20,7 @@ const Portfolio = () => {
                         <img src={IMG1} height="370px" alt="Giga Games" />
                     </div>
                     <h4>Giga Games</h4>
-                    <p className='small_text'>Loja de games para todos os tipos de console: PC, PS4, PS5, Nintendo e etc... (PHP + MySQL).
-                        <br></br>
-                        Sistema de compras, CRUD, telas de ADM.
+                    <p className='small_text'>Website responsivo para uma loja de games fictícia com sistema de login, compras, carrinho e gestão (PHP + MySQL).
                         <br></br>
                         Criado para o TCC (Trabalho de Conlusão de Curso).
                     </p>
@@ -36,9 +35,9 @@ const Portfolio = () => {
                         <img src={IMG2} height="370px" alt="Doguinho Feliz" />
                     </div>
                     <h4>Doguinho Feliz (Collaborator)</h4>
-                    <p className='small_text'>Petshop com sistema de agendamentos e carrinho de compras feito com PHP + MySQL.
+                    <p className='small_text'>Website responsivo de um petshop com sistema de login, agendamentos e carrinho de compras feito com PHP + MySQL.
                         <br></br>
-                        Criado para o TCC (Trabalho de Conlusão de Curso) de um colega de classe.
+                        Colabaroção no desenvolvimento do TCC (Trabalho de Conlusão de Curso) de um colega de classe.
                     </p>
                     <div className="portfolio__item-cta">
                         <a href='https://github.com/gsantos20/DoguinhoFeliz' className='btn' target="_blank"><FaGithub/></a>
@@ -51,7 +50,11 @@ const Portfolio = () => {
                         <img src={IMG3} height="370px" alt="CakeBoss" />
                     </div>
                     <h4>CakeBoss</h4>
-                    <p className='small_text'>Website para uma confeitaria com sistema de agendamentos de entrega/retirada e carrinho de compras feito com Bootstrap e PHP + MySQL.</p>
+                    <p className='small_text'>Website responsivo para uma confeitaria com sistema de agendamentos de entrega/retirada
+                        e carrinho de compras feito com Bootstrap e PHP + MySQL.
+                        <br></br>
+                        CRUD para bolos, sistema de login e etc...
+                    </p>
                     <div className="portfolio__item-cta">
                         <a href='https://drive.google.com/drive/folders/1HNmXQSvGdeqbX6pgHFB1ZTTryHjqAI1V?usp=sharing' className='btn' target="_blank"><FaGithub/></a>
                         <a href='https://drive.google.com/drive/folders/1HNmXQSvGdeqbX6pgHFB1ZTTryHjqAI1V?usp=sharing' className='btn btn-primary' target="_blank">Live Demo</a>
@@ -60,9 +63,22 @@ const Portfolio = () => {
 
                 <article className='portfolio__item'>
                     <div className="portfolio__item-image">
+                        <img src={IMG6} height="370px" alt="" />
+                    </div>
+                    <h4>Victor's Bank</h4>
+                    <p className='small_text'>Landing page responsiva de um banco digital fictício chamado Victor's Bank. Feito com React.
+                    </p>
+                    <div className="portfolio__item-cta">
+                        <a href='https://github.com/VictorSantos-Dev/landingpage_victorsbank' className='btn' target="_blank"><FaGithub/></a>
+                        <a href='https://landingpage-victorsbank.vercel.app' className='btn btn-primary' target="_blank">Live Demo</a>
+                    </div>
+                </article>
+
+                <article className='portfolio__item'>
+                    <div className="portfolio__item-image">
                         <img src={IMG4} height="370px" alt="" />
                     </div>
-                    <h4>ToDo List</h4>
+                    <h4>ToDo List (ReactJS)</h4>
                     <p className='small_text'>Lista de tarefas para anotações feita com ReactJs + Vite.
                     </p>
                     <div className="portfolio__item-cta">
@@ -76,8 +92,8 @@ const Portfolio = () => {
                     <div className="portfolio__item-image">
                         <img src={IMG5} height="370px" alt="" />
                     </div>
-                    <h4>Lista de Produtos</h4>
-                    <p className='small_text'>Lista de compras de produtos feito com Bubble (Version Test).
+                    <h4>ToDo List (Bubble)</h4>
+                    <p className='small_text'>Lista de anotações feito com Bubble (Version Test).
                     </p>
                     <div className="portfolio__item-cta">
                         <a href='https://bubble.io/page?type=page&name=listamercado_login&id=firstproject-70149&tab=tabs-1' className='btn' target="_blank"><FaGithub/></a>
